@@ -1,0 +1,140 @@
+body{
+    background: url(eye.jpg);
+    color: black;
+}
+.innerBody{
+    background: rgba(255,222,227, 0.7);
+    background-position: right 2000px bottom 10px; 
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 70px;
+    text-align: center;
+}
+.sub{
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.page{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+h3, nav{
+    margin: auto;
+    text-align: center;
+}
+nav{
+    position: relative;
+    width: 0;
+}
+.prevPage, .nextPage{
+    position: absolute;
+    z-index: 10000;
+}
+.prevPage{
+    top: -450px;
+    left: -470px;
+}
+.nextPage{
+    top: -450px;
+    left: 410px;
+}
+h1{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.chapters{
+    margin: 0 auto;
+    text-align: center;
+}
+.chapter{
+    margin: 0 10px;
+    padding: 30px;
+}
+.chapter, .chapter h4{
+    display: inline;
+    background-color: white;
+}
+.chapter:hover{
+    cursor: pointer;
+    color: salmon;
+}
+.publications{
+    text-align: center;
+}
+.publications h3{
+    margin-top: 40px;
+}
+.publications p{
+    margin: 0 0 10px 0;
+}
+.push{
+    position: absolute;
+    bottom: 0;
+}
+.contact{
+    text-align: center;
+    padding: 40px;
+}
+.icons{
+    margin: 0 auto;
+    text-align: center;
+}
+.fa-stack{
+    transition: color 0.8s ease;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.pageTurn{
+    font-size: 30px;
+}
+.fa:hover{
+    color: salmon;
+}
+.fa-circle{
+  color: palevioletred;
+}
+.fa-stack-1x{
+  color: snow;
+}
+#copyright{
+    float: left;
+    margin-left: 10px;
+}
+#me{
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+}
+@media (max-width: 1100px){
+    body{
+        background: url(eye.jpg) 700px 0;
+    }
+    .innerBody{
+        background: rgba(0,0,0,0);
+    }
+}
